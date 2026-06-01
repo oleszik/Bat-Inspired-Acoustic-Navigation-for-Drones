@@ -11,6 +11,9 @@ env/
 
 # Large generated datasets
 datasets/
+!datasets/
+datasets/*
+!datasets/README.md
 
 # Trained weights and heavy result artifacts
 neural_network/checkpoints/

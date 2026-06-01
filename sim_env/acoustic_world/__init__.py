@@ -5,10 +5,12 @@ from .mapper_bridge import dummy_predict_maps, get_mapper_config, load_mapper_ma
 from .navigation_bridge import choose_action_simple, get_navigation_config, load_navigation_manifest
 from .renderer import render_simulation_state
 from .acoustic_sensor import AcousticSensor
+from .metrics import binary_metrics
 
 __all__ = [
     "AcousticAgent",
     "AcousticSensor",
+    "binary_metrics",
     "DEFAULT_CELL_SIZE",
     "DIFFICULTY_PRESETS",
     "EnvironmentMap",
