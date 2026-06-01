@@ -1,0 +1,44 @@
+﻿{
+  "accepted_model_name": "phase2d_mapper_guided_navigation_v3",
+  "accepted_mapper_dependency": "phase2c5_hybrid_acoustic_mapper",
+  "mapper_manifest": "runs/accepted_models/phase2c5_hybrid_acoustic_mapper/manifest.json",
+  "navigation_script": "simulation/phase2_mapping/mapper_guided_navigation_v3.py",
+  "results_json": "runs/phase2_mapper_guided_navigation_v3/mapper_guided_navigation_results.json",
+  "status": "accepted",
+  "acceptance_date": "2026-06-01",
+  "accepted_metrics": {
+    "success_rate": 0.7817,
+    "collision_rate": 0.0,
+    "fake_doorway_approach_rate": 0.0,
+    "doorway_crossing_success_rate": 0.9283,
+    "coverage": 0.6608,
+    "final_map_accuracy": 0.9183,
+    "final_wall_f1": 0.3386,
+    "final_doorway_f1": 0.1532,
+    "timeout_rate": 0.0617
+  },
+  "acceptance_thresholds": {
+    "min_coverage": 0.65,
+    "min_success_rate": 0.45,
+    "max_fake_doorway_approach_rate": 0.02,
+    "max_timeout_rate": 0.1,
+    "min_doorway_crossing_success_rate": 0.8,
+    "require_zero_collision": true,
+    "require_nonzero_wall_f1": true,
+    "require_nonzero_doorway_f1": true
+  },
+  "comparison_vs_v2": {
+    "coverage_gain": 0.094,
+    "success_gain": 0.3883,
+    "timeout_delta": 0.02,
+    "doorway_crossing_gain": 0.07,
+    "collision_delta": 0.0,
+    "fake_doorway_delta": 0.0
+  },
+  "notes": [
+    "v3 is accepted because it meets all coverage, safety, doorway, timeout, and map-quality acceptance checks.",
+    "It preserves zero collisions and zero fake doorway approaches.",
+    "It improves coverage and success strongly over v2.",
+    "It depends on the accepted Phase 2C.5 hybrid acoustic mapper."
+  ]
+}

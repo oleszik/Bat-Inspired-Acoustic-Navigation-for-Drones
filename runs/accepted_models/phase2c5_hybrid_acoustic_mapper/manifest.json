@@ -1,0 +1,44 @@
+{
+  "accepted_model_name": "phase2c5_hybrid_acoustic_mapper",
+  "navigation_status": "recommended_default",
+  "v6_recommended_default_for_navigation": true,
+  "doorway_crossing_tolerance": 0.03,
+  "doorway_crossing_gap_vs_v5": 0.02456,
+  "selected_modes": {
+    "occupancy": "v4_occ",
+    "occupancy_threshold": 0.60,
+    "wall": "v4_wall",
+    "wall_threshold": 0.90,
+    "doorway": "v5_context",
+    "doorway_threshold": 0.85,
+    "free": "v4_free",
+    "free_threshold": 0.50
+  },
+  "fallback": {
+    "doorway_fallback_model": "v5_context",
+    "doorway_fallback_threshold": 0.85
+  },
+  "key_metrics": {
+    "v4_readiness": 76.240,
+    "v5_readiness": 77.498,
+    "v6_readiness": 78.689,
+    "v6_fake_doorway_approach_rate": 0.0114,
+    "v4_fake_doorway_approach_rate": 0.0683,
+    "v6_collision_risk": 0.02319,
+    "v4_collision_risk": 0.02319,
+    "v6_doorway_crossing_success_rate": 0.8035,
+    "v5_doorway_crossing_success_rate": 0.8281
+  },
+  "source_files": {
+    "comparison_navigation_readiness_json": "runs/phase2_mapper_navigation_readiness/comparison_navigation_readiness_v4_v5_v6.json",
+    "comparison_navigation_readiness_readme": "runs/phase2_mapper_navigation_readiness/README.md",
+    "v4_checkpoint": "runs/phase2_echo_mapper_v4/best_model.pt",
+    "v5_checkpoint": "runs/phase2_echo_mapper_v5/best_model.pt",
+    "v6_hybrid_selection": "runs/phase2_echo_mapper_v6_hybrid_calibrated/selected_modes_thresholds.json",
+    "v6_hybrid_metrics": "runs/phase2_echo_mapper_v6_hybrid_calibrated/test_metrics.json"
+  },
+  "notes": [
+    "v6 is accepted as default because it has the highest readiness score, lower fake-doorway risk, and no worse collision risk.",
+    "v5_context remains fallback for doorway-heavy tests because it has slightly higher doorway crossing success."
+  ]
+}

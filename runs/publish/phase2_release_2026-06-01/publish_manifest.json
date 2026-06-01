@@ -1,0 +1,83 @@
+{
+  "release_name": "phase2_release_2026-06-01",
+  "selection_policy": {
+    "primary": "show accepted model quality, safety tradeoffs, and end-to-end simulation behavior",
+    "avoid": "large batches of near-duplicate samples and intermediate failed baselines"
+  },
+  "publish_now": [
+    {
+      "file": "comparison_metrics_bar.png",
+      "source": "runs/phase2_echo_mapper_v6_hybrid_calibrated/comparison_metrics_bar.png",
+      "reason": "Best single chart for v2/v3/v4/v5/v6 mapper metric tradeoffs."
+    },
+    {
+      "file": "comparison_doorway_fp_bar.png",
+      "source": "runs/phase2_echo_mapper_v6_hybrid_calibrated/comparison_doorway_fp_bar.png",
+      "reason": "Shows false-positive suppression progress by map context."
+    },
+    {
+      "file": "navigation_readiness_bar.png",
+      "source": "runs/phase2_mapper_navigation_readiness/navigation_readiness_bar.png",
+      "reason": "Directly supports promotion of v6 mapper for navigation-readiness."
+    },
+    {
+      "file": "fake_doorway_rate_bar.png",
+      "source": "runs/phase2_mapper_navigation_readiness/fake_doorway_rate_bar.png",
+      "reason": "Safety-critical behavior summary."
+    },
+    {
+      "file": "doorway_crossing_success_bar.png",
+      "source": "runs/phase2_mapper_navigation_readiness/doorway_crossing_success_bar.png",
+      "reason": "Doorway utility summary complementary to fake-doorway safety."
+    },
+    {
+      "file": "empty_room_clean_sample.png",
+      "source": "runs/phase2_mapper_guided_navigation_v3/plots/empty_room_clean_sample.png",
+      "reason": "Representative clean-map mapper-guided behavior."
+    },
+    {
+      "file": "corridor_clean_sample.png",
+      "source": "runs/phase2_mapper_guided_navigation_v3/plots/corridor_clean_sample.png",
+      "reason": "Representative corridor behavior and fusion output."
+    },
+    {
+      "file": "single_block_clean_sample.png",
+      "source": "runs/phase2_mapper_guided_navigation_v3/plots/single_block_clean_sample.png",
+      "reason": "Representative obstacle circumnavigation behavior."
+    },
+    {
+      "file": "doorway_clean_sample.png",
+      "source": "runs/phase2_mapper_guided_navigation_v3/plots/doorway_clean_sample.png",
+      "reason": "Best visual for doorway crossing behavior."
+    },
+    {
+      "file": "cluttered_room_clean_sample.png",
+      "source": "runs/phase2_mapper_guided_navigation_v3/plots/cluttered_room_clean_sample.png",
+      "reason": "Representative performance in harder geometry."
+    },
+    {
+      "file": "doorway_hard_noise_sample.png",
+      "source": "runs/phase2_mapper_guided_navigation_v3/plots/doorway_hard_noise_sample.png",
+      "reason": "Shows robustness under hard-noise condition."
+    },
+    {
+      "file": "basic_world_doorway_clean.png",
+      "source": "sim_env/outputs/basic_world_doorway_clean.png",
+      "reason": "Simple sandbox world behavior snapshot."
+    },
+    {
+      "file": "mapper_demo_doorway_clean.png",
+      "source": "sim_env/outputs/mapper_demo_doorway_clean.png",
+      "reason": "Sandbox mapper-bridge visualization."
+    },
+    {
+      "file": "navigation_demo_doorway_clean.png",
+      "source": "sim_env/outputs/navigation_demo_doorway_clean.png",
+      "reason": "Sandbox navigation-bridge visualization."
+    }
+  ],
+  "defer_for_appendix": [
+    "bulk prediction sample grids from mapper versions",
+    "all intermediate variant overlays from v2.1/v2.2/v2.3"
+  ]
+}

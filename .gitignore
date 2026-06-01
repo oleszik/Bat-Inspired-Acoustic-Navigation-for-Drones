@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Large generated datasets
+datasets/
+
+# Trained weights and heavy result artifacts
+neural_network/checkpoints/
+neural_network/results/
+simulation/results/
+
+# Runs: keep accepted manifests and curated publish pack
+runs/*
+!runs/accepted_models/
+!runs/accepted_models/**
+!runs/publish/
+!runs/publish/**
+
+# Keep sim_env demo outputs optional
+# sim_env/outputs/
