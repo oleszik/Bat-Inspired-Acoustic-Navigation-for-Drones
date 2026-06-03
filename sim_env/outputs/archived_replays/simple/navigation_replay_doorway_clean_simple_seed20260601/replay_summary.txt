@@ -1,0 +1,34 @@
+run_name: navigation_replay_doorway_clean_simple_seed20260601
+map: doorway
+difficulty: clean
+policy_mode: simple
+steps: 700
+accepted_mapper_manifest_name: phase2c5_hybrid_acoustic_mapper
+accepted_navigation_manifest_name: phase2d_mapper_guided_navigation_v3
+final_agent_pose: {"x": 6.33076037769514, "y": 4.021511477888608, "theta": -1.3089969389957476}
+final_coverage: 0.6252
+collision_count: 0
+fake_doorway_approach_count: 0
+accepted_doorway_decision_count: 0
+rejected_doorway_decision_count: 191
+mean_confidence: 0.6018
+total_distance_traveled: 9.2000
+action_distribution: {"move_forward_slow": 115, "turn_left": 302, "turn_right": 283}
+number_of_frontier_switches: 698
+number_of_stagnation_events: 5
+stagnation_event_count: 4
+forced_frontier_switch_count: 0
+frontier_blacklist_count: 0
+high_confidence_revisit_ratio: 0.0000
+safe_forward_preference_count: 0
+safe_forward_chosen_count: 0
+safe_forward_blocked_count: 0
+doorway_for_coverage_count: 0
+frontier_commitment_count: 0
+premature_frontier_switch_count: 0
+target_reached_count: 0
+visited_cell_ratio: 0.0182
+high_revisit_cell_count: 621
+revisit_penalty_weight: 0.0000
+doorway_rejection_reason_counts: {"rejected_by_low_probability": 154, "rejected_by_collision_risk": 0, "rejected_by_low_behind_confidence_gain": 172, "rejected_by_structure_gate": 0}
+revisit_rate: 0.9614

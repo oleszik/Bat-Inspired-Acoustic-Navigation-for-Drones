@@ -1,0 +1,116 @@
+{
+  "accepted_policy_name": "adaptive_hybrid",
+  "sim_env_version": "v1.6",
+  "accepted_date": "2026-06-01",
+  "accepted_mapper_manifest": "runs/accepted_models/phase2c5_hybrid_acoustic_mapper/manifest.json",
+  "accepted_navigation_manifest": "runs/accepted_models/phase2d_mapper_guided_navigation_v3/manifest.json",
+  "tested_maps": [
+    {
+      "map": "doorway",
+      "difficulty": "clean"
+    },
+    {
+      "map": "cluttered_room",
+      "difficulty": "medium_noise"
+    },
+    {
+      "map": "corridor",
+      "difficulty": "clean"
+    },
+    {
+      "map": "single_block",
+      "difficulty": "hard_noise"
+    }
+  ],
+  "metrics": {
+    "doorway_clean": {
+      "comparison_policy": "stabilized_frontier",
+      "comparison_coverage": 0.6753,
+      "coverage": 0.7437,
+      "collision_count": 0,
+      "active_subpolicy_steps": {
+        "stabilized_frontier": 460,
+        "coverage_sweep": 240
+      },
+      "switch_count": 12,
+      "revisit_rate": 0.8329,
+      "action_distribution": {
+        "move_forward_slow": 461,
+        "probe_forward": 1,
+        "turn_left": 53,
+        "turn_right": 185
+      }
+    },
+    "cluttered_room_medium_noise": {
+      "comparison_policy": "coverage_sweep",
+      "comparison_coverage": 0.6330,
+      "coverage": 0.8830,
+      "collision_count": 0,
+      "active_subpolicy_steps": {
+        "stabilized_frontier": 274,
+        "coverage_sweep": 426
+      },
+      "switch_count": 11,
+      "revisit_rate": 0.8357,
+      "action_distribution": {
+        "move_forward_slow": 404,
+        "probe_forward": 1,
+        "turn_left": 170,
+        "turn_right": 125
+      }
+    },
+    "corridor_clean": {
+      "comparison_policy": "stabilized_frontier",
+      "comparison_coverage": 0.4838,
+      "coverage": 0.5724,
+      "collision_count": 0,
+      "active_subpolicy_steps": {
+        "stabilized_frontier": 392,
+        "coverage_sweep": 308
+      },
+      "switch_count": 13,
+      "revisit_rate": 0.8457,
+      "action_distribution": {
+        "move_forward_slow": 314,
+        "probe_forward": 1,
+        "turn_left": 196,
+        "turn_right": 189
+      }
+    },
+    "single_block_hard_noise": {
+      "comparison_policy": "coverage_sweep",
+      "comparison_coverage": 0.4322,
+      "coverage": 1.0000,
+      "collision_count": 0,
+      "active_subpolicy_steps": {
+        "stabilized_frontier": 484,
+        "coverage_sweep": 216
+      },
+      "switch_count": 9,
+      "revisit_rate": 0.7743,
+      "action_distribution": {
+        "move_forward_slow": 470,
+        "probe_forward": 1,
+        "turn_left": 177,
+        "turn_right": 52
+      }
+    }
+  },
+  "accepted_replay_gifs": {
+    "doorway_clean": "sim_env/outputs/accepted_replays/doorway_clean_adaptive_hybrid_700.gif",
+    "cluttered_room_medium_noise": "sim_env/outputs/accepted_replays/cluttered_room_medium_noise_adaptive_hybrid_700.gif",
+    "corridor_clean": "sim_env/outputs/accepted_replays/corridor_clean_adaptive_hybrid_700.gif",
+    "single_block_hard_noise": "sim_env/outputs/accepted_replays/single_block_hard_noise_adaptive_hybrid_700.gif"
+  },
+  "validation": {
+    "py_compile": "passed",
+    "pytest_tests_test_navigation_safety": "2 passed"
+  },
+  "notes": [
+    "adaptive_hybrid combines stabilized_frontier and coverage_sweep",
+    "it switches based on local obstacle density, repeated blockage, doorway/corridor structure, and coverage plateau",
+    "it improved coverage on all tested maps while preserving zero collisions",
+    "it is the recommended sim_env sandbox policy",
+    "explicit accepted doorway decisions are still not active and can be improved later"
+  ]
+}

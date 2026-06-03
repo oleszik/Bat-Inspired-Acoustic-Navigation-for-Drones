@@ -1,0 +1,24 @@
+{
+  "world_type": "single_block",
+  "width": 20,
+  "height": 15,
+  "seed": 7,
+  "steps": 24,
+  "final_coverage": 76.33333333333333,
+  "collisions": 0,
+  "replans": 23,
+  "frontier_targets_chosen": 23,
+  "no_path_count": 0,
+  "safety_decisions_count": 23,
+  "safety_warning_count": 0,
+  "safety_critical_count": 0,
+  "termination_reason": "target_coverage_reached",
+  "final_position": [
+    12,
+    8,
+    "S"
+  ],
+  "last_frontier_count": 39,
+  "last_path_length": 2,
+  "safety_decision_log_path": "integrations\\outputs\\safety_decision_log.json"
+}

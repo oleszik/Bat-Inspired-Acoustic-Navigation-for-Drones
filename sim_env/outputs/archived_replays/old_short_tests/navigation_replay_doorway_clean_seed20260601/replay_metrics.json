@@ -1,0 +1,3045 @@
+{
+  "run_name": "navigation_replay_doorway_clean_seed20260601",
+  "map": "doorway",
+  "difficulty": "clean",
+  "seed": 20260601,
+  "steps": 150,
+  "save_frames": true,
+  "save_gif": true,
+  "frames_saved": 150,
+  "gif_saved": true,
+  "final_metrics": {
+    "map_name": "doorway",
+    "difficulty": "clean",
+    "step_count": 150,
+    "accepted_mapper_manifest_name": "phase2c5_hybrid_acoustic_mapper",
+    "accepted_navigation_manifest_name": "phase2d_mapper_guided_navigation_v3",
+    "final_agent_pose": {
+      "x": 5.697157583479784,
+      "y": 4.287055236082017,
+      "theta": 0.7853981633974483
+    },
+    "final_coverage": 0.4491899852724595,
+    "collision_count": 0,
+    "fake_doorway_approach_count": 0,
+    "accepted_doorway_decision_count": 0,
+    "rejected_doorway_decision_count": 0,
+    "mean_confidence": 0.4583275318145752,
+    "total_distance_traveled": 3.6000000000000023,
+    "action_distribution": {
+      "move_forward_slow": 45,
+      "turn_left": 54,
+      "turn_right": 51
+    },
+    "number_of_frontier_switches": 149,
+    "number_of_stagnation_events": 0,
+    "coverage_gain_per_100_steps": 0.24644084437898872,
+    "frontier_commit_success_count": 0,
+    "revisit_rate": 0.8866666666666667,
+    "mean_distance_to_selected_frontier": 4.76438898789548,
+    "percent_steps_targeting_unknown_frontier": 1.0,
+    "percent_steps_safe_forward_bias_active": 0.3
+  },
+  "per_step_metrics": [
+    {
+      "step_index": 0,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.07952871870397643,
+      "confidence_mean": 0.15595032274723053,
+      "confidence_gain": 0.15595032274723053,
+      "frontier_target": [
+        40,
+        9
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.0,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.64
+    },
+    {
+      "step_index": 1,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.0898379970544919,
+      "confidence_mean": 0.16418015956878662,
+      "confidence_gain": 0.008229836821556091,
+      "frontier_target": [
+        15,
+        3
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.5,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.44
+    },
+    {
+      "step_index": 2,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.1332842415316642,
+      "confidence_mean": 0.19885475933551788,
+      "confidence_gain": 0.03467459976673126,
+      "frontier_target": [
+        2,
+        11
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.6666666666666666,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.36
+    },
+    {
+      "step_index": 3,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.15758468335787923,
+      "confidence_mean": 0.21820509433746338,
+      "confidence_gain": 0.019350335001945496,
+      "frontier_target": [
+        29,
+        26
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.75,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.2
+    },
+    {
+      "step_index": 4,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.15758468335787923,
+      "confidence_mean": 0.21817882359027863,
+      "confidence_gain": -2.6270747184753418e-05,
+      "frontier_target": [
+        32,
+        25
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.2
+    },
+    {
+      "step_index": 5,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.15758468335787923,
+      "confidence_mean": 0.21824699640274048,
+      "confidence_gain": 6.817281246185303e-05,
+      "frontier_target": [
+        6,
+        27
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8333333333333334,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.2
+    },
+    {
+      "step_index": 6,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.17893961708394698,
+      "confidence_mean": 0.23523938655853271,
+      "confidence_gain": 0.016992390155792236,
+      "frontier_target": [
+        45,
+        24
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.07999999999999981,
+      "repeated_cell_ratio": 0.8571428571428571,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.2
+    },
+    {
+      "step_index": 7,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.18630338733431517,
+      "confidence_mean": 0.24107326567173004,
+      "confidence_gain": 0.005833879113197327,
+      "frontier_target": [
+        23,
+        6
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.875,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.2
+    },
+    {
+      "step_index": 8,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.19440353460972018,
+      "confidence_mean": 0.2476082593202591,
+      "confidence_gain": 0.006534993648529053,
+      "frontier_target": [
+        23,
+        3
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8888888888888888,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.2
+    },
+    {
+      "step_index": 9,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.19734904270986744,
+      "confidence_mean": 0.24989640712738037,
+      "confidence_gain": 0.002288147807121277,
+      "frontier_target": [
+        40,
+        7
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.07999999999999981,
+      "repeated_cell_ratio": 0.9,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.2
+    },
+    {
+      "step_index": 10,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.20176730486008837,
+      "confidence_mean": 0.2534666955471039,
+      "confidence_gain": 0.0035702884197235107,
+      "frontier_target": [
+        26,
+        24
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.9090909090909091,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.2
+    },
+    {
+      "step_index": 11,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.20765832106038293,
+      "confidence_mean": 0.2581937611103058,
+      "confidence_gain": 0.004727065563201904,
+      "frontier_target": [
+        28,
+        1
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.9166666666666666,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.2
+    },
+    {
+      "step_index": 12,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.20765832106038293,
+      "confidence_mean": 0.2581671178340912,
+      "confidence_gain": -2.664327621459961e-05,
+      "frontier_target": [
+        26,
+        22
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.9230769230769231,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.2
+    },
+    {
+      "step_index": 13,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.20765832106038293,
+      "confidence_mean": 0.2581824064254761,
+      "confidence_gain": 1.5288591384887695e-05,
+      "frontier_target": [
+        33,
+        21
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.8571428571428571,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.2
+    },
+    {
+      "step_index": 14,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.20913107511045656,
+      "confidence_mean": 0.25936976075172424,
+      "confidence_gain": 0.001187354326248169,
+      "frontier_target": [
+        30,
+        12
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.8666666666666667,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 15,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.21354933726067746,
+      "confidence_mean": 0.2628379762172699,
+      "confidence_gain": 0.0034682154655456543,
+      "frontier_target": [
+        27,
+        10
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.875,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 16,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.22164948453608246,
+      "confidence_mean": 0.26934126019477844,
+      "confidence_gain": 0.006503283977508545,
+      "frontier_target": [
+        39,
+        21
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.8235294117647058,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 17,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.22312223858615612,
+      "confidence_mean": 0.2705007493495941,
+      "confidence_gain": 0.0011594891548156738,
+      "frontier_target": [
+        1,
+        13
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8333333333333334,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 18,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.24153166421207659,
+      "confidence_mean": 0.2851318418979645,
+      "confidence_gain": 0.014631092548370361,
+      "frontier_target": [
+        5,
+        17
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8421052631578947,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 19,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.24153166421207659,
+      "confidence_mean": 0.28518232703208923,
+      "confidence_gain": 5.048513412475586e-05,
+      "frontier_target": [
+        42,
+        14
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.85,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 20,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.24374079528718703,
+      "confidence_mean": 0.2881043255329132,
+      "confidence_gain": 0.0029219985008239746,
+      "frontier_target": [
+        46,
+        1
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8571428571428571,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 21,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.24742268041237114,
+      "confidence_mean": 0.2910482585430145,
+      "confidence_gain": 0.0029439330101013184,
+      "frontier_target": [
+        1,
+        15
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8636363636363636,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 22,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.25625920471281294,
+      "confidence_mean": 0.2981356680393219,
+      "confidence_gain": 0.007087409496307373,
+      "frontier_target": [
+        31,
+        23
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8695652173913043,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 23,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.25625920471281294,
+      "confidence_mean": 0.29802972078323364,
+      "confidence_gain": -0.00010594725608825684,
+      "frontier_target": [
+        31,
+        21
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.875,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 24,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.25625920471281294,
+      "confidence_mean": 0.2980382740497589,
+      "confidence_gain": 8.553266525268555e-06,
+      "frontier_target": [
+        35,
+        11
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.88,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 25,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.2599410898379971,
+      "confidence_mean": 0.30108797550201416,
+      "confidence_gain": 0.003049701452255249,
+      "frontier_target": [
+        1,
+        11
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8846153846153846,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 26,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.2599410898379971,
+      "confidence_mean": 0.30157598853111267,
+      "confidence_gain": 0.00048801302909851074,
+      "frontier_target": [
+        27,
+        15
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.07999999999999981,
+      "repeated_cell_ratio": 0.8518518518518519,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 27,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.26362297496318116,
+      "confidence_mean": 0.30456647276878357,
+      "confidence_gain": 0.0029904842376708984,
+      "frontier_target": [
+        31,
+        28
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8571428571428571,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 28,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.2695139911634757,
+      "confidence_mean": 0.3092159330844879,
+      "confidence_gain": 0.004649460315704346,
+      "frontier_target": [
+        46,
+        8
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.8275862068965517,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 29,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.2695139911634757,
+      "confidence_mean": 0.309170126914978,
+      "confidence_gain": -4.5806169509887695e-05,
+      "frontier_target": [
+        3,
+        17
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8333333333333334,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 30,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.2776141384388807,
+      "confidence_mean": 0.315672367811203,
+      "confidence_gain": 0.006502240896224976,
+      "frontier_target": [
+        37,
+        6
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8387096774193549,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 31,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.2776141384388807,
+      "confidence_mean": 0.3157041072845459,
+      "confidence_gain": 3.173947334289551e-05,
+      "frontier_target": [
+        1,
+        2
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.84375,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 32,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.2776141384388807,
+      "confidence_mean": 0.31569287180900574,
+      "confidence_gain": -1.1235475540161133e-05,
+      "frontier_target": [
+        40,
+        30
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8484848484848485,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 33,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.2776141384388807,
+      "confidence_mean": 0.3157585561275482,
+      "confidence_gain": 6.568431854248047e-05,
+      "frontier_target": [
+        22,
+        3
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8529411764705882,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 34,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.2776141384388807,
+      "confidence_mean": 0.31570759415626526,
+      "confidence_gain": -5.0961971282958984e-05,
+      "frontier_target": [
+        36,
+        20
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8571428571428571,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 35,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.2776141384388807,
+      "confidence_mean": 0.3157188892364502,
+      "confidence_gain": 1.1295080184936523e-05,
+      "frontier_target": [
+        28,
+        23
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8611111111111112,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 36,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.2776141384388807,
+      "confidence_mean": 0.31568512320518494,
+      "confidence_gain": -3.376603126525879e-05,
+      "frontier_target": [
+        44,
+        6
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8648648648648649,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 37,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.2776141384388807,
+      "confidence_mean": 0.3156743347644806,
+      "confidence_gain": -1.0788440704345703e-05,
+      "frontier_target": [
+        26,
+        28
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.868421052631579,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 38,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.2776141384388807,
+      "confidence_mean": 0.3156861364841461,
+      "confidence_gain": 1.1801719665527344e-05,
+      "frontier_target": [
+        42,
+        1
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8717948717948718,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 39,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.2776141384388807,
+      "confidence_mean": 0.3157067596912384,
+      "confidence_gain": 2.0623207092285156e-05,
+      "frontier_target": [
+        36,
+        13
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.875,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 40,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.27982326951399117,
+      "confidence_mean": 0.3175053596496582,
+      "confidence_gain": 0.0017985999584197998,
+      "frontier_target": [
+        37,
+        17
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.8780487804878049,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 41,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.28350515463917525,
+      "confidence_mean": 0.3204359710216522,
+      "confidence_gain": 0.0029306113719940186,
+      "frontier_target": [
+        28,
+        19
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.8571428571428571,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 42,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.28424153166421207,
+      "confidence_mean": 0.32103589177131653,
+      "confidence_gain": 0.0005999207496643066,
+      "frontier_target": [
+        27,
+        1
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8604651162790697,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 43,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.28718703976435933,
+      "confidence_mean": 0.32334572076797485,
+      "confidence_gain": 0.002309828996658325,
+      "frontier_target": [
+        41,
+        28
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8636363636363636,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 44,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.28718703976435933,
+      "confidence_mean": 0.32330259680747986,
+      "confidence_gain": -4.312396049499512e-05,
+      "frontier_target": [
+        42,
+        21
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.8666666666666667,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 45,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.29013254786450665,
+      "confidence_mean": 0.32574763894081116,
+      "confidence_gain": 0.002445042133331299,
+      "frontier_target": [
+        41,
+        5
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8695652173913043,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 46,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.2923416789396171,
+      "confidence_mean": 0.3280766010284424,
+      "confidence_gain": 0.0023289620876312256,
+      "frontier_target": [
+        5,
+        6
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8723404255319149,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 47,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.29823269513991163,
+      "confidence_mean": 0.3328450620174408,
+      "confidence_gain": 0.004768460988998413,
+      "frontier_target": [
+        46,
+        27
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.875,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 48,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.29823269513991163,
+      "confidence_mean": 0.3327760100364685,
+      "confidence_gain": -6.905198097229004e-05,
+      "frontier_target": [
+        27,
+        27
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8775510204081632,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 49,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.29823269513991163,
+      "confidence_mean": 0.33276450634002686,
+      "confidence_gain": -1.150369644165039e-05,
+      "frontier_target": [
+        32,
+        23
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.88,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 50,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.3011782032400589,
+      "confidence_mean": 0.33562254905700684,
+      "confidence_gain": 0.0028580427169799805,
+      "frontier_target": [
+        39,
+        17
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.07999999999999981,
+      "repeated_cell_ratio": 0.8627450980392157,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 51,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.30338733431516934,
+      "confidence_mean": 0.33751818537712097,
+      "confidence_gain": 0.0018956363201141357,
+      "frontier_target": [
+        33,
+        24
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.07999999999999981,
+      "repeated_cell_ratio": 0.8461538461538461,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 52,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.30486008836524303,
+      "confidence_mean": 0.3391779959201813,
+      "confidence_gain": 0.0016598105430603027,
+      "frontier_target": [
+        4,
+        9
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8490566037735849,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 53,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.3078055964653903,
+      "confidence_mean": 0.3414759933948517,
+      "confidence_gain": 0.00229799747467041,
+      "frontier_target": [
+        36,
+        20
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.8518518518518519,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 54,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.3114874815905744,
+      "confidence_mean": 0.34454748034477234,
+      "confidence_gain": 0.0030714869499206543,
+      "frontier_target": [
+        37,
+        25
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8545454545454545,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 55,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.3122238586156112,
+      "confidence_mean": 0.3450535535812378,
+      "confidence_gain": 0.0005060732364654541,
+      "frontier_target": [
+        42,
+        27
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.07999999999999981,
+      "repeated_cell_ratio": 0.8571428571428571,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 56,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.31443298969072164,
+      "confidence_mean": 0.3468286097049713,
+      "confidence_gain": 0.0017750561237335205,
+      "frontier_target": [
+        23,
+        30
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8596491228070176,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 57,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.32106038291605304,
+      "confidence_mean": 0.35217490792274475,
+      "confidence_gain": 0.0053462982177734375,
+      "frontier_target": [
+        34,
+        16
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8620689655172413,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 58,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.32106038291605304,
+      "confidence_mean": 0.3521830141544342,
+      "confidence_gain": 8.106231689453125e-06,
+      "frontier_target": [
+        35,
+        9
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.864406779661017,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 59,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.32106038291605304,
+      "confidence_mean": 0.3520907461643219,
+      "confidence_gain": -9.226799011230469e-05,
+      "frontier_target": [
+        31,
+        29
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8666666666666667,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 60,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.32106038291605304,
+      "confidence_mean": 0.35216179490089417,
+      "confidence_gain": 7.104873657226562e-05,
+      "frontier_target": [
+        39,
+        4
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8688524590163934,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 61,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.32106038291605304,
+      "confidence_mean": 0.3520963191986084,
+      "confidence_gain": -6.54757022857666e-05,
+      "frontier_target": [
+        40,
+        2
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8709677419354839,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 62,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.3232695139911635,
+      "confidence_mean": 0.35448774695396423,
+      "confidence_gain": 0.002391427755355835,
+      "frontier_target": [
+        33,
+        11
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.07999999999999981,
+      "repeated_cell_ratio": 0.8571428571428571,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 63,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.32547864506627394,
+      "confidence_mean": 0.35623717308044434,
+      "confidence_gain": 0.0017494261264801025,
+      "frontier_target": [
+        4,
+        30
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.859375,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 64,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.32547864506627394,
+      "confidence_mean": 0.35625767707824707,
+      "confidence_gain": 2.0503997802734375e-05,
+      "frontier_target": [
+        34,
+        29
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8615384615384616,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 65,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.3269513991163476,
+      "confidence_mean": 0.357436865568161,
+      "confidence_gain": 0.0011791884899139404,
+      "frontier_target": [
+        34,
+        17
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.07999999999999981,
+      "repeated_cell_ratio": 0.8636363636363636,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 66,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.32989690721649484,
+      "confidence_mean": 0.3597959578037262,
+      "confidence_gain": 0.0023590922355651855,
+      "frontier_target": [
+        45,
+        30
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.07999999999999981,
+      "repeated_cell_ratio": 0.8656716417910447,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 67,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.33136966126656847,
+      "confidence_mean": 0.3609885275363922,
+      "confidence_gain": 0.0011925697326660156,
+      "frontier_target": [
+        1,
+        4
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8676470588235294,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 68,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.33652430044182624,
+      "confidence_mean": 0.3651409149169922,
+      "confidence_gain": 0.004152387380599976,
+      "frontier_target": [
+        8,
+        30
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8695652173913043,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 69,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.33652430044182624,
+      "confidence_mean": 0.36508670449256897,
+      "confidence_gain": -5.4210424423217773e-05,
+      "frontier_target": [
+        46,
+        2
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8714285714285714,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 70,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.33652430044182624,
+      "confidence_mean": 0.3650815486907959,
+      "confidence_gain": -5.155801773071289e-06,
+      "frontier_target": [
+        4,
+        5
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8732394366197183,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 71,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.33726067746686306,
+      "confidence_mean": 0.3656705319881439,
+      "confidence_gain": 0.0005889832973480225,
+      "frontier_target": [
+        44,
+        21
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.875,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 72,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.33726067746686306,
+      "confidence_mean": 0.3656468689441681,
+      "confidence_gain": -2.3663043975830078e-05,
+      "frontier_target": [
+        27,
+        30
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8767123287671232,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 73,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.33726067746686306,
+      "confidence_mean": 0.3655940592288971,
+      "confidence_gain": -5.2809715270996094e-05,
+      "frontier_target": [
+        30,
+        12
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8783783783783784,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 74,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.33726067746686306,
+      "confidence_mean": 0.36563482880592346,
+      "confidence_gain": 4.076957702636719e-05,
+      "frontier_target": [
+        5,
+        10
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.88,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 75,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.33726067746686306,
+      "confidence_mean": 0.3656521141529083,
+      "confidence_gain": 1.728534698486328e-05,
+      "frontier_target": [
+        7,
+        24
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.881578947368421,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 76,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.33726067746686306,
+      "confidence_mean": 0.3655470907688141,
+      "confidence_gain": -0.00010502338409423828,
+      "frontier_target": [
+        40,
+        27
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8831168831168831,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 77,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.33726067746686306,
+      "confidence_mean": 0.36567798256874084,
+      "confidence_gain": 0.0001308917999267578,
+      "frontier_target": [
+        34,
+        8
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8846153846153846,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 78,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.33726067746686306,
+      "confidence_mean": 0.36565080285072327,
+      "confidence_gain": -2.7179718017578125e-05,
+      "frontier_target": [
+        31,
+        16
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.07999999999999963,
+      "repeated_cell_ratio": 0.8734177215189873,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 79,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.3379970544918999,
+      "confidence_mean": 0.3662407696247101,
+      "confidence_gain": 0.0005899667739868164,
+      "frontier_target": [
+        34,
+        18
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.875,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 80,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.3394698085419735,
+      "confidence_mean": 0.3673485517501831,
+      "confidence_gain": 0.0011077821254730225,
+      "frontier_target": [
+        36,
+        25
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8765432098765432,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 81,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.34241531664212077,
+      "confidence_mean": 0.3703400194644928,
+      "confidence_gain": 0.0029914677143096924,
+      "frontier_target": [
+        40,
+        6
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8780487804878049,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 82,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.34241531664212077,
+      "confidence_mean": 0.37035104632377625,
+      "confidence_gain": 1.1026859283447266e-05,
+      "frontier_target": [
+        3,
+        18
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8795180722891566,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 83,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.34241531664212077,
+      "confidence_mean": 0.3703867197036743,
+      "confidence_gain": 3.567337989807129e-05,
+      "frontier_target": [
+        34,
+        22
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000022,
+      "repeated_cell_ratio": 0.8809523809523809,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 84,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.3446244477172312,
+      "confidence_mean": 0.37321197986602783,
+      "confidence_gain": 0.0028252601623535156,
+      "frontier_target": [
+        38,
+        2
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8823529411764706,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 85,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.3490427098674521,
+      "confidence_mean": 0.37680116295814514,
+      "confidence_gain": 0.0035891830921173096,
+      "frontier_target": [
+        46,
+        8
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.872093023255814,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 86,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.3490427098674521,
+      "confidence_mean": 0.37678590416908264,
+      "confidence_gain": -1.52587890625e-05,
+      "frontier_target": [
+        18,
+        1
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8735632183908046,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 87,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.35198821796759944,
+      "confidence_mean": 0.37918734550476074,
+      "confidence_gain": 0.0024014413356781006,
+      "frontier_target": [
+        3,
+        24
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.875,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 88,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.35198821796759944,
+      "confidence_mean": 0.37908855080604553,
+      "confidence_gain": -9.879469871520996e-05,
+      "frontier_target": [
+        2,
+        4
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8764044943820225,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 89,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.35198821796759944,
+      "confidence_mean": 0.3792206943035126,
+      "confidence_gain": 0.00013214349746704102,
+      "frontier_target": [
+        20,
+        1
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8777777777777778,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 90,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.35272459499263625,
+      "confidence_mean": 0.37975916266441345,
+      "confidence_gain": 0.0005384683609008789,
+      "frontier_target": [
+        27,
+        5
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000031,
+      "repeated_cell_ratio": 0.8791208791208791,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 91,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.35272459499263625,
+      "confidence_mean": 0.3797186613082886,
+      "confidence_gain": -4.050135612487793e-05,
+      "frontier_target": [
+        34,
+        21
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8804347826086957,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 92,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.3541973490427099,
+      "confidence_mean": 0.380969375371933,
+      "confidence_gain": 0.0012507140636444092,
+      "frontier_target": [
+        43,
+        1
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000022,
+      "repeated_cell_ratio": 0.8817204301075269,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 93,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.3556701030927835,
+      "confidence_mean": 0.38200676441192627,
+      "confidence_gain": 0.0010373890399932861,
+      "frontier_target": [
+        44,
+        2
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000022,
+      "repeated_cell_ratio": 0.8829787234042553,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 94,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.35787923416789397,
+      "confidence_mean": 0.3837759494781494,
+      "confidence_gain": 0.0017691850662231445,
+      "frontier_target": [
+        44,
+        17
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8842105263157894,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 95,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.36229749631811486,
+      "confidence_mean": 0.3873461186885834,
+      "confidence_gain": 0.00357016921043396,
+      "frontier_target": [
+        32,
+        24
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8854166666666666,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 96,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.3637702503681885,
+      "confidence_mean": 0.3886168897151947,
+      "confidence_gain": 0.0012707710266113281,
+      "frontier_target": [
+        6,
+        27
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8865979381443299,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 97,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.36671575846833576,
+      "confidence_mean": 0.39091038703918457,
+      "confidence_gain": 0.002293497323989868,
+      "frontier_target": [
+        6,
+        19
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8877551020408163,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 98,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.36745213549337263,
+      "confidence_mean": 0.3920462131500244,
+      "confidence_gain": 0.0011358261108398438,
+      "frontier_target": [
+        32,
+        3
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8888888888888888,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 99,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.36745213549337263,
+      "confidence_mean": 0.39201974868774414,
+      "confidence_gain": -2.6464462280273438e-05,
+      "frontier_target": [
+        43,
+        9
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.89,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 100,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.36745213549337263,
+      "confidence_mean": 0.392111212015152,
+      "confidence_gain": 9.146332740783691e-05,
+      "frontier_target": [
+        3,
+        15
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8910891089108911,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 101,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.36745213549337263,
+      "confidence_mean": 0.3920104205608368,
+      "confidence_gain": -0.00010079145431518555,
+      "frontier_target": [
+        5,
+        8
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8921568627450981,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 102,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.36745213549337263,
+      "confidence_mean": 0.39211001992225647,
+      "confidence_gain": 9.959936141967773e-05,
+      "frontier_target": [
+        2,
+        28
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8932038834951457,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 103,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.36745213549337263,
+      "confidence_mean": 0.39202961325645447,
+      "confidence_gain": -8.040666580200195e-05,
+      "frontier_target": [
+        44,
+        4
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8942307692307693,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 104,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.36745213549337263,
+      "confidence_mean": 0.3920588791370392,
+      "confidence_gain": 2.9265880584716797e-05,
+      "frontier_target": [
+        37,
+        26
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000022,
+      "repeated_cell_ratio": 0.8857142857142857,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 105,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.36818851251840945,
+      "confidence_mean": 0.3932194411754608,
+      "confidence_gain": 0.0011605620384216309,
+      "frontier_target": [
+        7,
+        18
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8867924528301887,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 106,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.36818851251840945,
+      "confidence_mean": 0.39327776432037354,
+      "confidence_gain": 5.8323144912719727e-05,
+      "frontier_target": [
+        41,
+        18
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8878504672897196,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 107,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.36818851251840945,
+      "confidence_mean": 0.3931845426559448,
+      "confidence_gain": -9.322166442871094e-05,
+      "frontier_target": [
+        2,
+        6
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8888888888888888,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 108,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.36818851251840945,
+      "confidence_mean": 0.3933041989803314,
+      "confidence_gain": 0.00011965632438659668,
+      "frontier_target": [
+        39,
+        17
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.8899082568807339,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 109,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.3711340206185567,
+      "confidence_mean": 0.3955449163913727,
+      "confidence_gain": 0.0022407174110412598,
+      "frontier_target": [
+        1,
+        9
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8909090909090909,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 110,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.37187039764359353,
+      "confidence_mean": 0.3961552083492279,
+      "confidence_gain": 0.0006102919578552246,
+      "frontier_target": [
+        41,
+        6
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000022,
+      "repeated_cell_ratio": 0.8918918918918919,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 111,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.3755522827687776,
+      "confidence_mean": 0.39917469024658203,
+      "confidence_gain": 0.003019481897354126,
+      "frontier_target": [
+        38,
+        22
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8928571428571429,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 112,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.37628865979381443,
+      "confidence_mean": 0.3996688425540924,
+      "confidence_gain": 0.000494152307510376,
+      "frontier_target": [
+        42,
+        30
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8938053097345132,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 113,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.37702503681885124,
+      "confidence_mean": 0.4003007411956787,
+      "confidence_gain": 0.0006318986415863037,
+      "frontier_target": [
+        4,
+        4
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8947368421052632,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 114,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.37702503681885124,
+      "confidence_mean": 0.40028706192970276,
+      "confidence_gain": -1.3679265975952148e-05,
+      "frontier_target": [
+        2,
+        27
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8956521739130435,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 115,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.37702503681885124,
+      "confidence_mean": 0.4003172814846039,
+      "confidence_gain": 3.0219554901123047e-05,
+      "frontier_target": [
+        27,
+        26
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.896551724137931,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 116,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.3792341678939617,
+      "confidence_mean": 0.4020472764968872,
+      "confidence_gain": 0.0017299950122833252,
+      "frontier_target": [
+        36,
+        20
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000031,
+      "repeated_cell_ratio": 0.8888888888888888,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 117,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.3792341678939617,
+      "confidence_mean": 0.4020024240016937,
+      "confidence_gain": -4.4852495193481445e-05,
+      "frontier_target": [
+        43,
+        25
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000031,
+      "repeated_cell_ratio": 0.8898305084745762,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 118,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.3799705449189985,
+      "confidence_mean": 0.4031771123409271,
+      "confidence_gain": 0.0011746883392333984,
+      "frontier_target": [
+        44,
+        16
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8907563025210085,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 119,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.38438880706921946,
+      "confidence_mean": 0.4067566394805908,
+      "confidence_gain": 0.0035795271396636963,
+      "frontier_target": [
+        34,
+        23
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000022,
+      "repeated_cell_ratio": 0.8916666666666667,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 120,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.3865979381443299,
+      "confidence_mean": 0.4084378182888031,
+      "confidence_gain": 0.0016811788082122803,
+      "frontier_target": [
+        41,
+        18
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000022,
+      "repeated_cell_ratio": 0.8842975206611571,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 121,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.3895434462444772,
+      "confidence_mean": 0.41086646914482117,
+      "confidence_gain": 0.0024286508560180664,
+      "frontier_target": [
+        40,
+        23
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000022,
+      "repeated_cell_ratio": 0.8852459016393442,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 122,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.3910162002945508,
+      "confidence_mean": 0.4120734632015228,
+      "confidence_gain": 0.0012069940567016602,
+      "frontier_target": [
+        46,
+        24
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000022,
+      "repeated_cell_ratio": 0.8861788617886179,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 123,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.3939617083946981,
+      "confidence_mean": 0.4143526554107666,
+      "confidence_gain": 0.0022791922092437744,
+      "frontier_target": [
+        44,
+        21
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000022,
+      "repeated_cell_ratio": 0.8870967741935484,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 124,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.39764359351988215,
+      "confidence_mean": 0.41729167103767395,
+      "confidence_gain": 0.0029390156269073486,
+      "frontier_target": [
+        40,
+        26
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000022,
+      "repeated_cell_ratio": 0.88,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 125,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.39837997054491897,
+      "confidence_mean": 0.4178210198879242,
+      "confidence_gain": 0.0005293488502502441,
+      "frontier_target": [
+        42,
+        16
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000022,
+      "repeated_cell_ratio": 0.8809523809523809,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 126,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.40427098674521356,
+      "confidence_mean": 0.42265620827674866,
+      "confidence_gain": 0.004835188388824463,
+      "frontier_target": [
+        35,
+        26
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8818897637795275,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 127,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.41237113402061853,
+      "confidence_mean": 0.42913588881492615,
+      "confidence_gain": 0.00647968053817749,
+      "frontier_target": [
+        38,
+        2
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8828125,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 128,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.41237113402061853,
+      "confidence_mean": 0.4290788471698761,
+      "confidence_gain": -5.704164505004883e-05,
+      "frontier_target": [
+        2,
+        12
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8837209302325582,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 129,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.41237113402061853,
+      "confidence_mean": 0.4290807247161865,
+      "confidence_gain": 1.8775463104248047e-06,
+      "frontier_target": [
+        42,
+        3
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8846153846153846,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 130,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.41237113402061853,
+      "confidence_mean": 0.4290659725666046,
+      "confidence_gain": -1.475214958190918e-05,
+      "frontier_target": [
+        29,
+        26
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8854961832061069,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 131,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.41237113402061853,
+      "confidence_mean": 0.4290391504764557,
+      "confidence_gain": -2.682209014892578e-05,
+      "frontier_target": [
+        45,
+        6
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8863636363636364,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 132,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.41237113402061853,
+      "confidence_mean": 0.42904552817344666,
+      "confidence_gain": 6.377696990966797e-06,
+      "frontier_target": [
+        6,
+        23
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8872180451127819,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 133,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.41237113402061853,
+      "confidence_mean": 0.4291236102581024,
+      "confidence_gain": 7.808208465576172e-05,
+      "frontier_target": [
+        39,
+        20
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8880597014925373,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 134,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.41237113402061853,
+      "confidence_mean": 0.42911776900291443,
+      "confidence_gain": -5.841255187988281e-06,
+      "frontier_target": [
+        1,
+        8
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8888888888888888,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 135,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.4182621502209131,
+      "confidence_mean": 0.43380942940711975,
+      "confidence_gain": 0.004691660404205322,
+      "frontier_target": [
+        44,
+        5
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8897058823529411,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 136,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.4219440353460972,
+      "confidence_mean": 0.436708927154541,
+      "confidence_gain": 0.0028994977474212646,
+      "frontier_target": [
+        5,
+        29
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8905109489051095,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 137,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.4219440353460972,
+      "confidence_mean": 0.43675342202186584,
+      "confidence_gain": 4.44948673248291e-05,
+      "frontier_target": [
+        37,
+        21
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.8913043478260869,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 138,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.42341678939617083,
+      "confidence_mean": 0.43795815110206604,
+      "confidence_gain": 0.0012047290802001953,
+      "frontier_target": [
+        45,
+        19
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000007,
+      "repeated_cell_ratio": 0.8848920863309353,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 139,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.42341678939617083,
+      "confidence_mean": 0.43787264823913574,
+      "confidence_gain": -8.550286293029785e-05,
+      "frontier_target": [
+        42,
+        24
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8857142857142857,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 140,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.43078055964653905,
+      "confidence_mean": 0.4437693655490875,
+      "confidence_gain": 0.005896717309951782,
+      "frontier_target": [
+        5,
+        17
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8865248226950354,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 141,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.4329896907216495,
+      "confidence_mean": 0.445568323135376,
+      "confidence_gain": 0.0017989575862884521,
+      "frontier_target": [
+        35,
+        3
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8873239436619719,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 142,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.4329896907216495,
+      "confidence_mean": 0.44545456767082214,
+      "confidence_gain": -0.00011375546455383301,
+      "frontier_target": [
+        4,
+        28
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8881118881118881,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 143,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.4329896907216495,
+      "confidence_mean": 0.44560733437538147,
+      "confidence_gain": 0.00015276670455932617,
+      "frontier_target": [
+        44,
+        22
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000031,
+      "repeated_cell_ratio": 0.8819444444444444,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 144,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.4410898379970545,
+      "confidence_mean": 0.45198848843574524,
+      "confidence_gain": 0.0063811540603637695,
+      "frontier_target": [
+        3,
+        5
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8827586206896552,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 145,
+      "chosen_action": "move_forward_slow",
+      "action_reason": "safe_forward_frontier_progress",
+      "collision_risk": false,
+      "coverage": 0.4425625920471281,
+      "confidence_mean": 0.4531590938568115,
+      "confidence_gain": 0.0011706054210662842,
+      "frontier_target": [
+        46,
+        18
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.08000000000000022,
+      "repeated_cell_ratio": 0.8835616438356164,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 146,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.44550810014727543,
+      "confidence_mean": 0.4555038511753082,
+      "confidence_gain": 0.002344757318496704,
+      "frontier_target": [
+        6,
+        20
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8843537414965986,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 147,
+      "chosen_action": "turn_right",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.4491899852724595,
+      "confidence_mean": 0.45848941802978516,
+      "confidence_gain": 0.0029855668544769287,
+      "frontier_target": [
+        42,
+        4
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8851351351351351,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 148,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.4491899852724595,
+      "confidence_mean": 0.45852363109588623,
+      "confidence_gain": 3.421306610107422e-05,
+      "frontier_target": [
+        2,
+        16
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8859060402684564,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    },
+    {
+      "step_index": 149,
+      "chosen_action": "turn_left",
+      "action_reason": "align_to_frontier_target",
+      "collision_risk": false,
+      "coverage": 0.4491899852724595,
+      "confidence_mean": 0.4583275318145752,
+      "confidence_gain": -0.00019609928131103516,
+      "frontier_target": [
+        3,
+        25
+      ],
+      "doorway_candidate_count": 0,
+      "doorway_accepted_count": 0,
+      "doorway_rejected_count": 0,
+      "distance_traveled": 0.0,
+      "repeated_cell_ratio": 0.8866666666666667,
+      "doorway_state": "none",
+      "confidence_gain_estimate": 0.0
+    }
+  ]
+}

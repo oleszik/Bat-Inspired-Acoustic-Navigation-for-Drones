@@ -1,0 +1,163 @@
+[
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  },
+  {
+    "action": "CONTINUE",
+    "reason": "state within safety limits",
+    "severity": "INFO",
+    "should_replan": false,
+    "should_stop": false
+  }
+]

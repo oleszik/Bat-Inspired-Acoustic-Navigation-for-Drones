@@ -1,0 +1,44 @@
+run_name: navigation_replay_doorway_clean_route_committed_seed20260601
+map: doorway
+difficulty: clean
+policy_mode: route_committed
+steps: 700
+accepted_mapper_manifest_name: phase2c5_hybrid_acoustic_mapper
+accepted_navigation_manifest_name: phase2d_mapper_guided_navigation_v3
+final_agent_pose: {"x": 6.287684243481985, "y": 6.36759789288712, "theta": -2.8797932657906458}
+final_coverage: 0.6789
+collision_count: 0
+fake_doorway_approach_count: 0
+accepted_doorway_decision_count: 0
+rejected_doorway_decision_count: 4
+mean_confidence: 0.6628
+total_distance_traveled: 11.2800
+action_distribution: {"move_forward_slow": 141, "turn_left": 286, "turn_right": 273}
+number_of_frontier_switches: 506
+number_of_stagnation_events: 1
+stagnation_event_count: 2
+forced_frontier_switch_count: 0
+frontier_blacklist_count: 0
+high_confidence_revisit_ratio: 0.0000
+safe_forward_preference_count: 141
+safe_forward_chosen_count: 141
+safe_forward_blocked_count: 302
+doorway_for_coverage_count: 0
+frontier_commitment_count: 0
+premature_frontier_switch_count: 0
+target_reached_count: 0
+route_commitment_count: 113
+route_replan_count: 587
+progress_toward_target_count: 105
+no_progress_count: 0
+blocked_step_count: 1
+doorway_target_selected_count: 0
+doorway_target_reached_count: 0
+doorway_acceptance_reason: low_behind_conf_gain
+visited_cell_ratio: 0.0312
+high_revisit_cell_count: 567
+revisit_penalty_weight: 0.0000
+doorway_rejection_reason_counts: {"rejected_by_low_probability": 6, "rejected_by_collision_risk": 0, "rejected_by_low_behind_confidence_gain": 3, "rejected_by_structure_gate": 0}
+mean_distance_to_target: 6.9730
+mean_heading_error: 12.6239
+revisit_rate: 0.9329

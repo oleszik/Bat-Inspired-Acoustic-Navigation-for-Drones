@@ -1,0 +1,25 @@
+run_name: navigation_replay_cluttered_room_medium_noise_simple_seed20260601
+map: cluttered_room
+difficulty: medium_noise
+policy_mode: simple
+steps: 700
+accepted_mapper_manifest_name: phase2c5_hybrid_acoustic_mapper
+accepted_navigation_manifest_name: phase2d_mapper_guided_navigation_v3
+final_agent_pose: {"x": 6.557030277538558, "y": 4.418055132205446, "theta": 0.2617993877991487}
+final_coverage: 0.6616
+collision_count: 0
+fake_doorway_approach_count: 0
+accepted_doorway_decision_count: 0
+rejected_doorway_decision_count: 0
+mean_confidence: 0.6387
+total_distance_traveled: 9.6800
+action_distribution: {"move_forward_slow": 121, "turn_left": 302, "turn_right": 277}
+number_of_frontier_switches: 698
+number_of_stagnation_events: 4
+stagnation_event_count: 12
+forced_frontier_switch_count: 0
+frontier_blacklist_count: 0
+high_confidence_revisit_ratio: 0.0000
+safe_forward_preference_count: 0
+doorway_for_coverage_count: 0
+revisit_rate: 0.9457

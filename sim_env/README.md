@@ -11,6 +11,23 @@ It is intentionally separated from `simulation/phase2_mapping/`, which remains t
 - Navigation manifest:
   - `runs/accepted_models/phase2d_mapper_guided_navigation_v3/manifest.json`
 
+## Current recommended sandbox policy
+
+`adaptive_hybrid` is the recommended `sim_env` v1.6 policy for visual simulation and replay.
+
+It combines `stabilized_frontier` and `coverage_sweep`, switching based on local obstacle density, repeated blockage, doorway/corridor structure, and coverage plateau diagnostics. It improved coverage on the accepted replay set while preserving `collision_count = 0`.
+
+- Accepted policy doc: `sim_env/ACCEPTED_POLICY.md`
+- Accepted policy manifest: `sim_env/outputs/accepted_policy_manifest.json`
+- Accepted replay GIFs: `sim_env/outputs/accepted_replays/`
+
+The older modes remain available as diagnostic modes:
+
+- `simple`
+- `stabilized_frontier`
+- `route_committed`
+- `coverage_sweep`
+
 ## Folder structure
 
 - `acoustic_world/`
@@ -24,6 +41,7 @@ It is intentionally separated from `simulation/phase2_mapping/`, which remains t
   - `run_basic_world.py`
   - `run_mapper_demo.py`
   - `run_navigation_demo.py`
+  - `run_navigation_replay.py`
 - `outputs/`
   - generated figures from demos
 

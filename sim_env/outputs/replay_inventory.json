@@ -1,0 +1,180 @@
+﻿{
+    "generated_at":  "2026-06-02T11:50:02.1138802+08:00",
+    "accepted_replay_gifs":  [
+                                 {
+                                     "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\accepted_replays\\doorway_clean_adaptive_hybrid_700.gif",
+                                     "exists":  true
+                                 },
+                                 {
+                                     "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\accepted_replays\\cluttered_room_medium_noise_adaptive_hybrid_700.gif",
+                                     "exists":  true
+                                 },
+                                 {
+                                     "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\accepted_replays\\corridor_clean_adaptive_hybrid_700.gif",
+                                     "exists":  true
+                                 },
+                                 {
+                                     "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\accepted_replays\\single_block_hard_noise_adaptive_hybrid_700.gif",
+                                     "exists":  true
+                                 }
+                             ],
+    "accepted_replay_folders":  [
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\accepted_replays\\navigation_replay_cluttered_room_medium_noise_adaptive_hybrid_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\accepted_replays\\navigation_replay_corridor_clean_adaptive_hybrid_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\accepted_replays\\navigation_replay_doorway_clean_adaptive_hybrid_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\accepted_replays\\navigation_replay_single_block_hard_noise_adaptive_hybrid_seed20260601"
+                                ],
+    "archived_replay_folders":  [
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\coverage_sweep\\navigation_replay_cluttered_room_medium_noise_coverage_sweep_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\coverage_sweep\\navigation_replay_corridor_clean_coverage_sweep_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\coverage_sweep\\navigation_replay_doorway_clean_coverage_sweep_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\coverage_sweep\\navigation_replay_single_block_hard_noise_coverage_sweep_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\old_short_tests\\navigation_replay_cluttered_room_medium_noise_accepted_v3_like_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\old_short_tests\\navigation_replay_cluttered_room_medium_noise_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\old_short_tests\\navigation_replay_doorway_clean_accepted_v3_like_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\old_short_tests\\navigation_replay_doorway_clean_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\route_committed\\navigation_replay_cluttered_room_medium_noise_route_committed_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\route_committed\\navigation_replay_doorway_clean_route_committed_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\simple\\navigation_replay_cluttered_room_medium_noise_simple_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\simple\\navigation_replay_corridor_clean_simple_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\simple\\navigation_replay_doorway_clean_simple_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\simple\\navigation_replay_single_block_hard_noise_simple_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\stabilized_frontier\\navigation_replay_cluttered_room_medium_noise_stabilized_frontier_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\stabilized_frontier\\navigation_replay_corridor_clean_stabilized_frontier_seed20260601",
+                                    "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\stabilized_frontier\\navigation_replay_doorway_clean_stabilized_frontier_seed20260601"
+                                ],
+    "deleted_frame_folders":  [
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_cluttered_room_medium_noise_accepted_v3_like_seed20260601\\frames",
+                                      "file_count":  200,
+                                      "bytes":  22433008
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_cluttered_room_medium_noise_adaptive_hybrid_seed20260601\\frames",
+                                      "file_count":  700,
+                                      "bytes":  99835952
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_cluttered_room_medium_noise_coverage_sweep_seed20260601\\frames",
+                                      "file_count":  700,
+                                      "bytes":  98089149
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_cluttered_room_medium_noise_route_committed_seed20260601\\frames",
+                                      "file_count":  700,
+                                      "bytes":  85964887
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_cluttered_room_medium_noise_seed20260601\\frames",
+                                      "file_count":  200,
+                                      "bytes":  20832769
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_cluttered_room_medium_noise_simple_seed20260601\\frames",
+                                      "file_count":  700,
+                                      "bytes":  79808219
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_cluttered_room_medium_noise_stabilized_frontier_seed20260601\\frames",
+                                      "file_count":  700,
+                                      "bytes":  89131099
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_corridor_clean_adaptive_hybrid_seed20260601\\frames",
+                                      "file_count":  700,
+                                      "bytes":  94530956
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_corridor_clean_coverage_sweep_seed20260601\\frames",
+                                      "file_count":  700,
+                                      "bytes":  89207454
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_corridor_clean_simple_seed20260601\\frames",
+                                      "file_count":  700,
+                                      "bytes":  75593527
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_corridor_clean_stabilized_frontier_seed20260601\\frames",
+                                      "file_count":  700,
+                                      "bytes":  92166797
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_doorway_clean_accepted_v3_like_seed20260601\\frames",
+                                      "file_count":  150,
+                                      "bytes":  16772115
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_doorway_clean_adaptive_hybrid_seed20260601\\frames",
+                                      "file_count":  700,
+                                      "bytes":  97371951
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_doorway_clean_coverage_sweep_seed20260601\\frames",
+                                      "file_count":  700,
+                                      "bytes":  89140731
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_doorway_clean_route_committed_seed20260601\\frames",
+                                      "file_count":  700,
+                                      "bytes":  85406292
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_doorway_clean_seed20260601\\frames",
+                                      "file_count":  150,
+                                      "bytes":  14874084
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_doorway_clean_simple_seed20260601\\frames",
+                                      "file_count":  700,
+                                      "bytes":  79628680
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_doorway_clean_stabilized_frontier_seed20260601\\frames",
+                                      "file_count":  700,
+                                      "bytes":  93834825
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_single_block_hard_noise_adaptive_hybrid_seed20260601\\frames",
+                                      "file_count":  700,
+                                      "bytes":  100452221
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_single_block_hard_noise_coverage_sweep_seed20260601\\frames",
+                                      "file_count":  700,
+                                      "bytes":  97264799
+                                  },
+                                  {
+                                      "path":  "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\navigation_replay_single_block_hard_noise_simple_seed20260601\\frames",
+                                      "file_count":  700,
+                                      "bytes":  77436035
+                                  }
+                              ],
+    "kept_metrics_files":  [
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\accepted_replays\\navigation_replay_cluttered_room_medium_noise_adaptive_hybrid_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\accepted_replays\\navigation_replay_corridor_clean_adaptive_hybrid_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\accepted_replays\\navigation_replay_doorway_clean_adaptive_hybrid_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\accepted_replays\\navigation_replay_single_block_hard_noise_adaptive_hybrid_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\coverage_sweep\\navigation_replay_cluttered_room_medium_noise_coverage_sweep_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\coverage_sweep\\navigation_replay_corridor_clean_coverage_sweep_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\coverage_sweep\\navigation_replay_doorway_clean_coverage_sweep_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\coverage_sweep\\navigation_replay_single_block_hard_noise_coverage_sweep_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\old_short_tests\\navigation_replay_cluttered_room_medium_noise_accepted_v3_like_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\old_short_tests\\navigation_replay_cluttered_room_medium_noise_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\old_short_tests\\navigation_replay_doorway_clean_accepted_v3_like_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\old_short_tests\\navigation_replay_doorway_clean_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\route_committed\\navigation_replay_cluttered_room_medium_noise_route_committed_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\route_committed\\navigation_replay_doorway_clean_route_committed_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\simple\\navigation_replay_cluttered_room_medium_noise_simple_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\simple\\navigation_replay_corridor_clean_simple_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\simple\\navigation_replay_doorway_clean_simple_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\simple\\navigation_replay_single_block_hard_noise_simple_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\stabilized_frontier\\navigation_replay_cluttered_room_medium_noise_stabilized_frontier_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\stabilized_frontier\\navigation_replay_corridor_clean_stabilized_frontier_seed20260601\\replay_metrics.json",
+                               "D:\\GitHub_Repos\\Acoustic Recog\\sim_env\\outputs\\archived_replays\\stabilized_frontier\\navigation_replay_doorway_clean_stabilized_frontier_seed20260601\\replay_metrics.json"
+                           ],
+    "total_gif_count_before_cleanup":  21,
+    "total_gif_count_after_cleanup":  25,
+    "total_disk_space_saved_bytes":  1599775550,
+    "total_disk_space_saved_mb":  1525.66
+}

@@ -1,0 +1,29 @@
+{
+  "world_type": "single_block",
+  "width": 20,
+  "height": 15,
+  "seed": 7,
+  "steps": 28,
+  "final_coverage": 60.666666666666664,
+  "collisions": 0,
+  "replans": 27,
+  "frontier_targets_chosen": 27,
+  "no_path_count": 0,
+  "safety_decisions_count": 27,
+  "safety_warning_count": 0,
+  "safety_critical_count": 0,
+  "occupied_cells": 25,
+  "free_cells": 157,
+  "unknown_cells": 118,
+  "termination_reason": "target_coverage_reached",
+  "final_position": [
+    12,
+    7,
+    "E"
+  ],
+  "last_frontier_count": 45,
+  "last_path_length": 2,
+  "summary_path": "integrations\\outputs\\grid_occupancy_frontier_astar_safety_summary.json",
+  "occupancy_map_path": "integrations\\outputs\\final_occupancy_map.json",
+  "safety_decision_log_path": "integrations\\outputs\\safety_decision_log_occupancy_demo.json"
+}
